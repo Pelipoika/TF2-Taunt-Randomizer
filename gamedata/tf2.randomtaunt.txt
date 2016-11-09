@@ -1,0 +1,22 @@
+"Games"
+{
+	/* Team Fortress 2 */
+	"tf"
+	{
+		"Offsets"
+		{
+			"m_iTauntAttack"
+			{
+				"windows"	"24"
+				"linux"		"20"
+			}
+			
+			"m_flTauntAttackTime" 
+			{
+				"windows"	"32"
+				"linux"		"28"
+			}
+		}
+	}
+}
+
