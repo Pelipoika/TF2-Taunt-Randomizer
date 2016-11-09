@@ -7,8 +7,8 @@ enum
 {
 	TF_TAUNT_NONE,
 	TF_TAUNT_PYRO,				//1
-	TF_TAUNT_UNKNOWN,			//2
-	TF_TAUNT_LUNCHBOX,			//3
+	TF_TAUNT_SANDVICH,			//2
+	TF_TAUNT_DALOKOHS,			//3
 	TF_TAUNT_SHOWDOWN,			//4
 	TF_TAUNT_SPY2,				//5
 	TF_TAUNT_GRAND_SLAM,		//6
@@ -79,7 +79,7 @@ public void TF2_OnConditionAdded(int client, TFCond cond)
 			flTaultAttackTime = flTime;
 		}
 		
-	//	PrintToChatAll("flTaultAttackTime %f (@%i) m_iTauntAttack %i (@%i)", flTaultAttackTime, g_iTauntAttackTime, m_iTauntAttack, g_iTauntAttack);
+		PrintToChatAll("flTaultAttackTime %f (@%i) m_iTauntAttack %i (@%i)", flTaultAttackTime, g_iTauntAttackTime, m_iTauntAttack, g_iTauntAttack);
 	}
 }
 
