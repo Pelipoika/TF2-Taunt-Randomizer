@@ -79,7 +79,7 @@ public void TF2_OnConditionAdded(int client, TFCond cond)
 			flTaultAttackTime = flTime;
 		}
 		
-		PrintToChatAll("flTaultAttackTime %f (@%i) m_iTauntAttack %i (@%i)", flTaultAttackTime, g_iTauntAttackTime, m_iTauntAttack, g_iTauntAttack);
+	//	PrintToChatAll("flTaultAttackTime %f (@%i) m_iTauntAttack %i (@%i)", flTaultAttackTime, g_iTauntAttackTime, m_iTauntAttack, g_iTauntAttack);
 	}
 }
 
